@@ -1,6 +1,6 @@
 package checkedException.division;
 
-public class Operations {
+public class division {
 
     /*
      * this function has an exception handling Checked
