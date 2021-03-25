@@ -1,5 +1,7 @@
 package checkedException;
 
+import checkedException.person.Person;
+
 import java.util.Scanner;
 
 public class Main {

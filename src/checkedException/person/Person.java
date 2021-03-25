@@ -1,4 +1,4 @@
-package checkedException;
+package checkedException.person;
 
 public class Person {
 

@@ -10,6 +10,7 @@ public class MainUnchecked {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Excepcion Unchecked para cuando el divisor(segundo numero es cero)");
         System.out.print("Ingrese el primer numero: ");
         Double a =input.nextDouble();
         System.out.print("Ingrese el segundo numero: ");
