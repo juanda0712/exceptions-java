@@ -4,7 +4,7 @@ import checkedException.person.Person;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainChecked {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
