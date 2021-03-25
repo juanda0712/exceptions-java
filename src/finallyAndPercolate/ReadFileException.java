@@ -1,4 +1,4 @@
-package checkedException;
+package finallyAndPercolate;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,7 +9,7 @@ import java.io.IOException;
 * when file is not found on specified path (C:/PruebaLeerArchivoExcepcion)
 * the exception can also be raised when file is inaccessible
 * */
-public class MainChecked {
+public class ReadFileException {
     public static void main(String[] args) {
         File fileExample = new File("C:/path/PruebaLeerArchivoExcepcion.txt");
         FileInputStream reader = null;
@@ -37,7 +37,7 @@ public class MainChecked {
              */
         }catch (IOException IOEx){
             IOEx.printStackTrace();
-        }finally { // clean up code, try to close the file
+        }finally { // clean up code
             try{
                 reader.close();
             }catch (IOException IOEx){
