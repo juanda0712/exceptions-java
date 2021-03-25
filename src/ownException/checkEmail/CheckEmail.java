@@ -1,4 +1,6 @@
-package ownException;
+package ownException.checkEmail;
+
+import ownException.mailLengthError.MailLengthError;
 
 public class CheckEmail{
 
@@ -6,7 +8,7 @@ public class CheckEmail{
     * Examine the email and verify that it is a valid email and
     * that it has an acceptable length (greater than 3 characters)
     * */
-    public static void examineEmail(String email) throws MailLengthError{
+    public static void examineEmail(String email) throws MailLengthError {
         int atSign = 0;
         boolean dot = false;
 

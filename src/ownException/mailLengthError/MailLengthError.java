@@ -1,4 +1,4 @@
-package ownException;
+package ownException.mailLengthError;
 
 public class MailLengthError extends Exception{
 

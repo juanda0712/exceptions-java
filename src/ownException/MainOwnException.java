@@ -1,5 +1,8 @@
 package ownException;
 
+import ownException.checkEmail.CheckEmail;
+import ownException.mailLengthError.MailLengthError;
+
 import java.util.Scanner;
 
 public class MainOwnException {
