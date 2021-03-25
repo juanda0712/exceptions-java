@@ -1,6 +1,6 @@
 package uncheckedException;
 
-import uncheckedException.division.division;
+import uncheckedException.division.Division;
 import java.util.Scanner;
 
 //This example implements an exception for when a number is divided by zero
@@ -15,7 +15,7 @@ public class MainUnchecked {
         System.out.print("Ingrese el segundo numero: ");
         Double b = input.nextDouble();
 
-        Double result = division.division(a,b);
+        Double result = Division.division(a,b);
         System.out.printf("Resultado: %.1f",result);
 
     }
